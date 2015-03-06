@@ -27,4 +27,8 @@ public class InputController {
 		dao.salvar(input);
 		return "adicionado";
 	  }
+	  
+	  public void nothing(){
+		  System.out.println("nothing");
+	  }
 }
