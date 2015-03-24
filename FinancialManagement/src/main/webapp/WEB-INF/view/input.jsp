@@ -12,9 +12,11 @@
 	<form action="save" method="post">
 		<h3>Adicionar entradas</h3>
 		<label>Nome:</label>
-		<input  id="name" name="${input.name}">
+		<spring:input path="input.name"></spring:input>
 		<label>Valor:</label>
-		<input  id="value" name="value" type="number">
+		<spring:select path="input.inputType">
+			<spring:options items="${inputTypes}"/>
+		</spring:select>
 		<input type="submit" value="Adicionar Entrada">
 	</form>
 </body>

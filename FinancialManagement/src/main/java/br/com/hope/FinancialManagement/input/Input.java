@@ -1,4 +1,4 @@
-package br.com.hope.FinalnacialManagement.input;
+package br.com.hope.FinancialManagement.input;
 
 import java.time.LocalDate;
 

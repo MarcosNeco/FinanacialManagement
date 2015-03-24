@@ -1,6 +1,6 @@
-package br.com.hope.FinalnacialManagement.dao;
+package br.com.hope.FinancialManagement.dao;
 
-import br.com.hope.FinalnacialManagement.input.Input;
+import br.com.hope.FinancialManagement.input.Input;
 
 public class InputDAO {
 		

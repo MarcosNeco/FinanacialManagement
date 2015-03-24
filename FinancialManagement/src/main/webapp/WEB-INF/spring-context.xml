@@ -10,13 +10,14 @@
     http://www.springframework.org/schema/context 
     http://www.springframework.org/schema/context/spring-context-3.0.xsd">
   
-  <context:component-scan base-package="br.com.hope.FinalnacialManagement.controller"/>
+  <context:component-scan base-package="br.com.hope.FinancialManagement.controller"/>
    
   <mvc:annotation-driven />
   <mvc:default-servlet-handler/>
+  
+  
   <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
     <property name="prefix" value="/WEB-INF/view/"/>
     <property name="suffix" value=".jsp"/>
   </bean>
- 
 </beans>

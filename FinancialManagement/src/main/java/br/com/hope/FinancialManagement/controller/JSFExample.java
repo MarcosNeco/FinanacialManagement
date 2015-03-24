@@ -1,4 +1,4 @@
-package br.com.hope.FinalnacialManagement.controller;
+package br.com.hope.FinancialManagement.controller;
 
 import javax.annotation.ManagedBean;
 
