@@ -4,6 +4,8 @@ public class Font {
 	
 	private String name;
 	private FontType fontType;
+	private String description;
+	private Float currentValue;
 	private int agency;
 	private int count;
 	private int digit;
@@ -37,5 +39,17 @@ public class Font {
 	}
 	public void setDigit(int digit) {
 		this.digit = digit;
+	}
+	public String getDescription() {
+		return description;
+	}
+	public void setDescription(String description) {
+		this.description = description;
+	}
+	public Float getCurrentValue() {
+		return currentValue;
+	}
+	public void setCurrentValue(Float currentValue) {
+		this.currentValue = currentValue;
 	}
 }

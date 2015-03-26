@@ -10,6 +10,12 @@
 </head>
 <body>
 	<label>Nome:</label>
-	<input type="text" name="name"/>
+	<spring:input path=""/>
+	<label>Tipo:</label>
+	<spring:select path="">
+		<spring:option value="sa"/>
+	</spring:select>
+	<label>Descrição</label>
+	<spring:textarea path="font.description"/>
 </body>
 </html>
