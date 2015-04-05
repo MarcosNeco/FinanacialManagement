@@ -7,7 +7,7 @@ public class Font {
 	private String description;
 	private Float currentValue;
 	private int agency;
-	private int count;
+	private int account;
 	private int digit;
 	
 	public String getName() {
@@ -28,11 +28,11 @@ public class Font {
 	public void setAgency(int agency) {
 		this.agency = agency;
 	}
-	public int getCount() {
-		return count;
+	public int getAccount() {
+		return account;
 	}
-	public void setCount(int count) {
-		this.count = count;
+	public void setAccount(int account) {
+		this.account = account;
 	}
 	public int getDigit() {
 		return digit;
