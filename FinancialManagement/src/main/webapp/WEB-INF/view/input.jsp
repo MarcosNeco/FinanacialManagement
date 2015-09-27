@@ -9,15 +9,15 @@
 	<title>Salvar entrada</title>
 </head>
 <body>
-	<form action="save" method="post">
+	<spring:form action="input/save" method="post" modelAttribute="input">
 		<h3>Adicionar entradas</h3>
 		<label>Nome:</label>
-		<spring:input path="input.name"></spring:input>
+		<spring:input path="name"></spring:input>
 		<label>Valor:</label>
-		<spring:select path="input.inputType">
-			<spring:options items="${inputTypes}"/>
-		</spring:select>
+<%-- 		<spring:select path="inputType"> --%>
+<%-- 			<spring:options items="${inputTypes}"/> --%>
+<%-- 		</spring:select> --%>
 		<input type="submit" value="Adicionar Entrada">
-	</form>
+	</spring:form>
 </body>
 </html>
