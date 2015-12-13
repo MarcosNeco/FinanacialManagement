@@ -1,7 +1,8 @@
 package br.com.hope.FinancialManagement.input;
 
+
 public enum InputType {
-	CHECKING_ACCOUT(1, "Conta corrente");
+	CHECKING_ACCOUT(1, "Salário");
 	
 	private String name;
 	private int index;
