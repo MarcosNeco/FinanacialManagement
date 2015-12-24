@@ -12,7 +12,7 @@
   
   <context:component-scan base-package="br.com.hope.FinancialManagement.controller"/>
    
-  <mvc:annotation-driven conversion-service="applicationConversionService" />
+  <mvc:annotation-driven conversion-service="conversionService" />
   <mvc:default-servlet-handler/>
   
   
@@ -41,7 +41,13 @@
     </property>
   </bean>
   
-  <!-- Beans para conversao de objetos -->
-  <bean class="br.com.hope.FinancialManagement.converter.ConversionServiceFactoryBean" id="applicationConversionService"/>
+  <!-- Beans factory para conversao de objetos -->
+  <bean id="conversionService" class="org.springframework.context.support.ConversionServiceFactoryBean">
+	   <property name="converters">
+	        <set>
+	            <bean class="br.com.hope.FinancialManagement.converter.LocalDateConverter"/>
+	        </set>
+	    </property>
+  </bean>
 
 </beans>

@@ -41,8 +41,8 @@
 					<div class="form-group">
 						<div class="col-md-4">
 							<label><s:message code="lbl.date.input" /></label>
-							<fmt:formatDate value="${input.date}" pattern="dd/mm/yyyy" var="dataFormated" />
-							<input id="date" title="Data" name="date" value="${dataFormated}" class="form-control"/>
+<%-- 							<fmt:formatDate value="${input.date}" pattern="dd/mm/yyyy" var="dataFormated" /> --%>
+							<input id="date" title="Data" name="date" value="${input.date}" class="form-control"/>
 						</div>
 					</div>
 					<div class="form-group">
