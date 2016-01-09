@@ -17,7 +17,7 @@
   
   
   <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-    <property name="prefix" value="/WEB-INF/view/"/>
+    <property name="prefix" value="/WEB-INF/"/>
     <property name="suffix" value=".jsp"/>
   </bean>
   
@@ -49,5 +49,14 @@
 	        </set>
 	    </property>
   </bean>
-
+  
+<!--Beans para uso de templates nas paginas -->
+  <bean id="viewResolver" class="org.springframework.web.servlet.view.tiles3.TilesViewResolver"/>
+  <bean id="tilesConfigurer" class="org.springframework.web.servlet.view.tiles3.TilesConfigurer">
+  	<property name="definitions">
+		<list>
+			<value>/WEB-INF/template/template.xml</value>
+		</list>
+	</property>
+   </bean>
 </beans>
