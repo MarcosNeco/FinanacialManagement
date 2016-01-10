@@ -28,19 +28,16 @@
 								<!-- start message --> <a href="#">
 									<div class="pull-left">
 										<!-- User Image -->
-										<img src="../dist/img/user2-160x160.jpg" class="img-circle"
-											alt="User Image">
+										<img src="../images/template/img/user2-160x160.jpg" class="img-circle" alt="User Image">
 									</div> <!-- Message title and timestamp -->
-									<h4>
-										Support Team <small><i class="fa fa-clock-o"></i> 5
-											mins</small>
+									<h4>Support Team 
+										<small><i class="fa fa-clock-o"></i>5mins</small>
 									</h4> <!-- The message -->
 									<p>Why not buy a new awesome theme?</p>
 							</a>
 							</li>
 							<!-- end message -->
-						</ul>
-						<!-- /.menu -->
+						</ul> <!-- /.menu -->
 					</li>
 					<li class="footer"><a href="#">See All Messages</a></li>
 				</ul>
@@ -103,16 +100,15 @@
 			</li>
 			<!-- User Account Menu -->
 			<li class="dropdown user user-menu">
-				<!-- Menu Toggle Button --> <a href="#" class="dropdown-toggle"
-				data-toggle="dropdown"> <!-- The user image in the navbar--> <img
-					src="../dist/img/user2-160x160.jpg" class="user-image"
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown"> <!-- The user image in the navbar--> <img
+					src="../images/template/user2-160x160.jpg" class="user-image"
 					alt="User Image"> <!-- hidden-xs hides the username on small devices so only the image appears. -->
-					<span class="hidden-xs">Alexander Pierce</span>
+					<span class="hidden-xs">Marcos Neco</span>
 			</a>
 				<ul class="dropdown-menu">
 					<!-- The user image in the menu -->
 					<li class="user-header"><img
-						src="../dist/img/user2-160x160.jpg" class="img-circle"
+						src="../images/template/img/user2-160x160.jpg" class="img-circle"
 						alt="User Image">
 						<p>
 							Alexander Pierce - Web Developer <small>Member since Nov.
